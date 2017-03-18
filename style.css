@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.head-image img{
+  width: 100%;
+  position: relative;
+  top: -150px;
+  margin: 0 auto;
+}
+
+.body-background {
+  background-color: white;
+  position: relative;
+  top: -620px;
+  height: 1000px;
+}
+
+.body {
+  background-color: white;
+  width: 70%;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background-color: #FFF;
+  float: left;
+  width: 20%;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-left: 5px;
+}
+
+.content {
+  background-color: yellow;
+  float: left;
+  width: 75%;
+  min-height: 400px;
+  padding-top: 40px;
+}
+
+.sidebar h1 {
+  color: rgba(99, 103, 113, 1.0);
+  font-family: Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+.sidebar p {
+  color: rgba(169, 173, 178, 1.0);
+  font-family: Georgia, serif;
+  font-size: 1.06em;
+  line-height: 1.45em;
+  padding-top: 20px;
+}
+
+.content p {
+  color: rgba(62, 71, 77, 1.0);
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 3em;
+}
+
+hr {
+    display: block;
+    border: 1px solid rgba(242, 242, 242, 1.0);
+    width: 185px;
+    margin-top: 1em;
+}
+
+#search {
+  text-transform: uppercase;
+  color: rgba(186, 187, 190, 1.0);
+  font-family: Helvetica, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+#search-bar {
+  border: 1.2px solid rgba(224, 224, 224, 1.0);
+  border-radius: 5px;
+  background-color: #FFF;
+  height: 10px;
+  width: 180px;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 13px;
+  color: rgba(224, 224, 224, 1.0);
+  margin-top: 24px;
+  margin-left: 2px;
+  line-height: 0.01em;
+}
+
+
+
+
+
+
+.help {
+  width: 305px;
+  height: 95px;
+  border: 1.5px solid rgba(182, 182, 182, 1.0);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px gray;
+}
+
+.warn {
+  border-bottom: 1.5px solid rgba(182, 182, 182, 1.0);
+  overflow: auto;
+}
+
+
+.warn p {
+  font-family: Helvetica, Verdana, sans-serif;
+  padding-left: 10px;
+  line-height: 2.5em;
+  color: rgba(62, 62, 62, 1.0);
+  font-weight: bold;
+  font-size: 0.9em;
+  float: left;
+}
+
+.warn div img #x {
+  float: right;
+  width: 20%;
+}
+
+.follow {
+  overflow: auto;
+}
+
+.follow #tiy-logo {
+  width: 12%;
+  border-radius: 12px;
+  padding: 10px;
+  float: left;
+}
+
+#tiy {
+  padding-top: 10px;
+  font-family: Helvetica, Verdana, sans-serif;
+  color: rgba(73, 73, 73, 1.0);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+#tiydallas {
+  padding-top: 5px;
+  font-family: Helvetica, Verdana, sans-serif;
+  color: rgba(182, 182, 182, 1.0);
+  font-size: 0.9em;
+}
+
+.follow #follow {
+  height: 37px;
+  float: right;
+  padding-top: 10px;
+}
